@@ -1,0 +1,33 @@
+.team-section{
+    padding: 67px 0 61px;
+    .team-more{
+        font-size: 1.4rem;
+        font-weight: $font-weight-medium;      
+    }
+    .owl-carousel .owl-dots.disabled {
+        display: block;
+    }
+    .team-member-name{
+        margin-bottom: 1.5rem;
+        a{
+            line-height: 2.7rem;
+            font-size: 2.2rem;
+
+        }
+    }
+    .team-member-info{
+        margin-bottom: 3rem;
+    }
+    a.fa-linkedin-in{
+        color:$gray-900;
+        font-size: 3rem;
+    }
+}
+@media(min-width:576px){
+    .team-section{
+        .team-member-info{
+            margin-bottom: 10rem;
+        }
+    }
+}
+
