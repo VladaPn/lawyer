@@ -9729,4 +9729,24 @@ header .navbar-nav a {
   }
 }
 
+.info-section {
+  padding: 75px 0 69px;
+  background: #11284B;
+}
+
+.info-section p {
+  color: #586C88;
+  font-weight: 400;
+  line-height: 2.5rem;
+}
+
+.info-section p span {
+  margin-right: 12px;
+  font-size: 2rem;
+}
+
+.info-section p a {
+  color: #586C88;
+}
+
 /*# sourceMappingURL=theme.css.map */

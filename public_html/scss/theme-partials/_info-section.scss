@@ -1,0 +1,18 @@
+$info-bg:$dark-blue;
+$span-color:$blue-custom;
+.info-section{
+    padding: 75px 0 69px;
+    background: $info-bg;
+    p{
+        color: $span-color;
+        font-weight: $font-weight-normal;
+        line-height: 2.5rem;
+        span{
+            margin-right: 12px;
+            font-size: 2rem;
+        }
+        a{
+            color: $span-color;
+        }
+    }
+}
