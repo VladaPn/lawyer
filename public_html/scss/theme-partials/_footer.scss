@@ -1,0 +1,25 @@
+$copy-color:#586C88;
+footer{
+    padding: 15px 0;
+    
+    .social{
+        a{
+            color:#312e3f;
+            margin:0 10px;
+            font-size: 2.5rem;
+            transition: 1s linear;
+            &:hover{
+                transform: rotate(360deg);
+            }
+        }
+    }
+    .copyright{
+        color:$copy-color;
+        font-size: 1.2rem;
+        line-height: 4.1rem;
+        a{
+            color:$copy-color;
+        }
+    }
+}
+
