@@ -2,7 +2,7 @@
     padding: 67px 0 61px;
     .team-more{
         font-size: 1.4rem;
-        font-weight: $font-weight-medium;      
+        font-weight: $font-weight-medium;
     }
     .owl-carousel .owl-dots.disabled {
         display: block;
@@ -31,3 +31,48 @@
     }
 }
 
+// team-members
+.team-members{
+    padding: 50px 0;
+    .team-member{
+        figure{
+            overflow: hidden;
+            img{
+                transition: 1s linear;
+                &:hover{
+                    transform: scale(1.05);
+                }
+            }
+        }
+        .fa-linkedin-in{
+            position: absolute;
+            right: 15px;
+            bottom: 16px;
+            color: $white;
+            text-decoration: none;
+            font-size: 2.8rem;
+            z-index: 5;          
+
+        }
+        .team-member-position{
+            color: $primary;
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+            font-weight: $font-weight-medium;
+        }
+
+        h5{
+            a{
+                font-size: 2.2rem;
+                line-height: 2.7rem;
+                color: $body-color;
+                text-decoration: none;
+            }
+        }
+    }
+}
+@media(min-width:992px){
+    .team-members{
+        padding: 64px 0 133px;
+    }
+}
