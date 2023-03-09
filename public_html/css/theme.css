@@ -9692,6 +9692,26 @@ header .navbar-nav a {
   color: #1E1E1E;
 }
 
+.service-section.dark-service-section {
+  background-color: #11284B;
+}
+
+.service-section.dark-service-section p {
+  color: #F5F5F5;
+  padding: 0px 0 10px;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  height: 7.5rem;
+  overflow: hidden;
+}
+
+.service-section.dark-service-section a.read-m {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+  margin-top: 0;
+}
+
 .team-section {
   padding: 67px 0 61px;
 }

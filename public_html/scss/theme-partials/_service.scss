@@ -1,4 +1,6 @@
 $service-text:$gray-900;
+$dark-service-bg:#11284B;
+$services-dark-text-w:#F5F5F5;
 .service-section{
     padding: 77px 0 80px;
     h2{
@@ -11,6 +13,23 @@ $service-text:$gray-900;
         }
         span{
             color:$service-text;
+        }
+    }
+    &.dark-service-section{
+        background-color: $dark-service-bg;
+        p{
+            color:$services-dark-text-w;
+            padding: 0px 0 10px ;
+            font-size: 1.6rem;
+            line-height: 2.5rem;
+            height: 7.5rem;
+            overflow: hidden;
+        }
+        a.read-m{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            font-weight: $font-weight-medium;
+            margin-top: 0;
         }
     }
 }
