@@ -33,4 +33,12 @@ $services-dark-text-w:#F5F5F5;
         }
     }
 }
+.service-content{
 
+    padding: 50px 0;
+}
+@media(min-width:992px){
+    .service-content{
+        padding: 107px 0;
+    }
+}
