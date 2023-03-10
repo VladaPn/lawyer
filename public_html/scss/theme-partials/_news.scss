@@ -1,0 +1,44 @@
+.news-section{
+    padding: 50px 0;
+    .news-item{
+       
+        h2{
+            a{
+                color:$body-color;
+                line-height: 4rem;
+                display: block;
+                text-decoration: none;
+            }
+        }
+        .news-item-description{
+            line-height: 2.5rem;
+            height: 7.5rem;
+            overflow: hidden;
+        }
+        .read-m{
+            font-weight: $font-weight-medium;
+        }
+        a.holder{
+            overflow: hidden;
+            img{
+                transition:all 0.5s linear;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
+@media(min-width:992px){
+    .news-section{
+        padding: 114px 0 42px;
+        .news-item{
+        padding-bottom: 91px;
+        h2{
+            a{
+                line-height: 4.6rem;
+            }
+        }
+        }
+    }
+}
