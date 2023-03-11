@@ -38,7 +38,43 @@ $(document).ready(function () {
             }
         });
     }
+//form-validator
 
+
+
+ 
+        $('.contact-form').validate({
+            highlight: function (element) {
+                $(element).addClass('is-invalid').removeClass('is-valid');
+            },
+            unhighlight: function (element) {
+                $(element).addClass('is-valid').removeClass('is-invalid');
+            },
+            rules: {
+                name: {
+                    required: true,
+                    minlength: 3
+                },
+                email: {
+                    required: true,
+                    email: true
+                },
+                message: {
+                    required: true
+                },
+            messages: {
+                name: {
+                    required: 'Polje obavezno fam',
+                    minlength: 'Mali ti haha'
+                }
+            },
+            errorElement: 'p',
+            errorPlacement: function (error, element) {
+                error.appendTo(element.closest('.form-group').find('.error-msg'));
+            }
+        }
+        });
+    
 }
 );
 
